@@ -11,6 +11,9 @@ def sayt():
 def d():
     return render_template('d.html')
 
+def s():
+    return render_template('s.html')    
+
 
 if __name__=='__main__':
     app.run(debug=True)
